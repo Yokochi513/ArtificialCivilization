@@ -90,11 +90,14 @@ tick=  1000 pop=  62 avg_energy= 98.3 avg_age= 214 max_gen= 4 food= 350 births= 
 
 ## 7. モジュール構成
 
-```
+```bash
 src/
 ├── main.rs        # エントリポイント。設定読み込み・シミュレーション起動
 ├── config.rs      # Config: 全パラメータ
-├── model.rs       # Agent / Food / Genome(model_definition.md に対応)
+├── models
+│   ├─ agent.rs    # Agent(model_definition.md に対応)
+│   ├─ food.rs     # Food(model_definition.md に対応)
+│   └─ genome.rs   # Genome(model_definition.md に対応)
 ├── world.rs       # World: 空間・食料管理(world_definition.md に対応)
 ├── agent/
 │   ├── mod.rs
