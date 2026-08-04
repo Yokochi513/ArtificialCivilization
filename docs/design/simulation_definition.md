@@ -126,4 +126,3 @@ src/
 | `BASE_COST` | 0.5 | 毎 tick の基礎代謝 |
 | `MAX_TICKS` | 10000 | シミュレーションの最大 tick 数 |
 | `STATS_INTERVAL` | 100 | 統計出力の間隔(tick) |
-| `SEED` | なし | 乱数シード(未指定時は自動生成しログ出力) |
